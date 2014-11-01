@@ -6,8 +6,10 @@
   <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
   <script src="jquery.js"></script>
   <style>
-    .highlighted, .favorite { background-color: yellow; }
-    .favorite li:before { content: "\2606"; }
+    ul.comments { list-style-type: none; }
+    li:before { content: "\2022 \020 \020 \020"; }
+    li.favorite:before { content: "\2605 \020"; }
+    .highlighted { background-color: yellow; }
   </style>
 </head>
 <body>

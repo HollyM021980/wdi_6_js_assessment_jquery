@@ -47,9 +47,7 @@ $(document).ready(function(){
   // it, including comments that were added after the page loaded.
 
   var makeFavorites = function(event) {
-    var comment = $(this).val();
     $(this).toggleClass('favorite');
-    // $(this).nextAll().toggleClass('favorite');;
     event.preventDefault();
   };
 
